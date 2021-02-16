@@ -12,8 +12,9 @@ export function validateSequence(array, sequence) {
   return sequence.length === seqIdx;
 }
 
-const data = { array: [1, 1, 6, 1], sequence: [1, 1, 1, 6] };
-// {"array": [1, 1, 1, 1, 1], "sequence": [1, 1, 1]}
+const data =
+  //{ array: [1, 1, 6, 1], sequence: [1, 1, 1, 6] };
+  { array: [1, 1, 1, 1, 1], sequence: [1, 1, 1] };
 
 // {
 //   "array": [5, 1, 22, 25, 6, -1, 8, 10],
